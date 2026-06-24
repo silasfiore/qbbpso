@@ -27,7 +27,7 @@ This project compiles into a command-line utility. It requires one or more input
 ```bash
 ./qbbpso <inputfile> <magnitude_l> <sigma_l> <c1> <c2> <c3> [-t <numerical integration time step> -n <number of particles> -i <number of iterations> -o <outputfile>]
 ```
-The normalized angular momentum is defined by the intial angular momentum and can be computed using 
+The normalized angular momentum is defined by the initial angular momentum and can be computed using 
 the initial angular velocity in the body frame using
 
 $$\mathbf{l} = \frac{1}{I_2}\text{DCM}(\mathbf{q}_0)\begin{bmatrix} I_1 & 0 & 0\\\\ 0 & I_2 & 0 \\\\ 0 & 0 & I_3 \end{bmatrix} \boldsymbol{\omega}_{b,0}$$ 
