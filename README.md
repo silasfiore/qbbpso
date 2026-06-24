@@ -21,7 +21,7 @@ Ensure you have a C99-compatible compiler (like `gcc` or `clang`) and `make` ins
    make
    ```
 ## Usage
-This project compiles into a command-line utility. It requires one or more input text files and generates corresponding output text files.
+This project compiles into a command-line utility. It requires an input text file and several arguments and generates an output text file.
 ### Command Syntax
 
 ```bash
