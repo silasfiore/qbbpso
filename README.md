@@ -37,8 +37,8 @@ $$I_1 \leq I_2 \leq I_3$$
 
 Its norm has the unit radians / second and for a freely precessing top, it is the angular rate of the precession. The inertia constants are defined as 
 
-$$c_1 = \tfrac{I_2 - I_3}{I_1},\,
-c_2 = \tfrac{I_3 - I_1}{I_2},\, \text{and}\; 
+$$c_1 = \tfrac{I_2 - I_3}{I_1},
+c_2 = \tfrac{I_3 - I_1}{I_2}, \text{ and }
 c_3 = \tfrac{I_1 - I_2}{I_3}$$
 
 The number of particles and number of iterations control how many particles are used to
