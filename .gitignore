@@ -1,0 +1,4 @@
+*.o
+qbbpso
+matlab/inputdata.txt
+matlab/particles.txt
