@@ -29,7 +29,9 @@ This project compiles into a command-line utility. It requires one or more input
 ```
 The normalized angular momentum is defined by the intial angular momentum and can be computed using 
 the initial angular velocity in the body frame using
-$$\mathbf{l} = \frac{1}{I_2}\text{DCM}(\mathbf{q}_0)\begin{bmatrix} I_1 & 0 & 0\\ 0 & I_2 & 0 \\ 0 & 0 & I_3 \end{bmatrix} \boldsymbol{\omega}_{b,0}$$ 
+
+$$\mathbf{l} = \frac{1}{I_2}\text{DCM}(\mathbf{q}_0)\begin{bmatrix} I_1 & 0 & 0\\\\ 0 & I_2 & 0 \\\\ 0 & 0 & I_3 \end{bmatrix} \boldsymbol{\omega}_{b,0}$$ 
+
 where 
 $$I_1 \leq I_2 \leq I_3$$ 
 
